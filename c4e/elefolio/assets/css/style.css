@@ -1,0 +1,35 @@
+.menu{
+ display: inline-block;
+}
+.menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.header-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+.banner-main{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+img{
+    max-width: 100%;
+}
+.banner-main .thumb img{
+    min-width: 550px;
+}
+.banner-main .content .position{
+    border-left: 2px solid rgb(225, 206, 28);
+    padding-left: 15px;
+}
+.banner-main p{
+    width: 600px;
+}
